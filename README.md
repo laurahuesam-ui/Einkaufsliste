@@ -19,3 +19,7 @@ Es ist sinnvoll, die jeweils neueste Datei im geteilten Ordner kenntlich zu mach
 
 ## Bedienung
 Nur Artikelnamen eingeben. Stammdaten und Kategorie entstehen automatisch, die Kategorie ist manuell korrigierbar. Einkaufsort ist optional. Sortieren nach Name, Einkaufsort und Kategorie. Eingekauft abhaken, erledigte Artikel wahlweise ausblenden oder entfernen, ohne die Statistik zu verlieren.
+
+
+## Version 4 – Bedarfsintervall
+Im Reiter Statistik wird jetzt aus den Zeitpunkten der Listenaufnahmen pro Artikel berechnet, in welchem mittleren Abstand der Artikel benötigt wird (z. B. „Etwa alle 4 Tage benötigt“). Es werden mindestens zwei Listenaufnahmen benötigt. Dies ist ein rückblickender Durchschnitt, keine Vorhersage oder Erinnerungsfunktion. Käufe verändern den Bedarfsabstand nicht. Daten und Backup-Format bleiben unverändert.
