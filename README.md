@@ -1,12 +1,12 @@
-# Familien-Einkaufsliste – Version 2
+# Familien-Einkaufsliste – Version 3
 
 ## Installation
 Die Dateien `index.html`, `app.js`, `styles.css`, `sw.js`, `manifest.webmanifest` und `icon.svg` gemeinsam in ein GitHub-Pages-Repository hochladen. Jeder öffnet dieselbe PWA-Adresse und kann sie am iPhone zum Home-Bildschirm hinzufügen. Keine Registrierung und keine Datenbank nötig.
 
 ## Gemeinsame Nutzung ohne Datenbank
 1. Einen **gemeinsamen iCloud-Drive-Ordner** in der Apple-App „Dateien“ anlegen und mit der Familie teilen. Alternativ Backup-Dateien an eine gemeinsame Apple-Notiz anhängen.
-2. Eine Person trägt Artikel ein und tippt unter **Familie & Backup → Backup speichern / teilen**. Die erzeugte `.json`-Datei in den geteilten Ordner speichern.
-3. Vor dem nächsten Einkauf laden andere Familienmitglieder die neueste Datei über **Familien-Backup einlesen** in die PWA.
+2. Eine Person trägt Artikel ein und tippt unter **Backup → Backup exportieren**. Die erzeugte `.json`-Datei in den geteilten Ordner speichern.
+3. Vor dem nächsten Einkauf laden andere Familienmitglieder die neueste Datei über **Backup importieren** in die PWA.
 4. Nach eigenen Änderungen wieder ein neues Backup exportieren und im Ordner ablegen. **Das geschieht nicht automatisch.**
 
 Es ist sinnvoll, die jeweils neueste Datei im geteilten Ordner kenntlich zu machen und alte Backups aufzubewahren oder später zu archivieren. Die PWA kann auf dem iPhone nicht von selbst Änderungen in Apple Notizen oder iCloud Drive erkennen.
